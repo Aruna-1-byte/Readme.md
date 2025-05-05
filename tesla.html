@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            
+            justify-items: center;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .contents{
+            position: relative;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 25px;
+            top: -870px;
+            left: 760px;
+        }
+        .car2{
+            position: relative;
+            top: -290px;
+        }
+        .c2{
+            position: relative;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 25px;
+            top: 190px;
+            left: 760px;
+        }
+        .header{
+            background-color: rgb(210, 210, 154);
+           
+           height: 120px;
+           display: flex;
+           justify-content: center;
+           justify-items: center;
+           align-items: center;
+           align-content: center;
+            
+        }
+        #knowmore{
+            position: relative;
+            top: -80px;
+            left: 200px;
+        }
+        .car3{
+            position: relative;
+            top:-470px;
+        }
+        .c3{
+            position: relative;
+            top:220px;
+            
+        }
+        .Vehicles{
+            position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      cursor: pointer;
+      color: rgb(128, 22, 22);
+        }
+        .VechicleSlidder1{
+            display: none;
+      position: absolute;
+      top: 100%;
+      left: -400px;
+      background-color: #ffffff;
+      color: #000;
+      padding: 20px;
+      height: 500px;
+      width: 1200px;
+      border-radius: 10px;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      
+            
+        }
+        .VechicleSlidder2{
+            display: none;
+      position: absolute;
+      top: 100%;
+      left: -400px;
+      background-color: #ffffff;
+      color: #000;
+      padding: 20px;
+      height: 400px;
+      width: 1200px;
+      border-radius: 10px;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      
+            
+        }
+        .Vehicles:hover .VechicleSlidder1{
+            
+                display: block;
+            
+        }
+        .Energy:hover .VechicleSlidder2{
+            
+            display: block;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar navbar-expand-md">
+            <!-- <img src="/assests/tesla.png" alt="" style="margin-left: -200px;"> -->
+
+            <div class="Vehicles" ><button type="button" class="btn btn-light "><a href="http://"></a>Vehicles</button>
+                <div class="VechicleSlidder1">
+                    <div class="vechicle_slider" style="display: flex;">
+                        <div class="V_cars" style="display: inline-grid ;grid-template-columns: repeat(4,1fr);grid-template-rows: repeat(2,1fr); border-right: 1px solid;  ">
+                            <div class="Vcar1">
+                                <img src="/assests/car1.avif" style="height: 200px;width: 200px;" alt=""><br>
+                                model s
+                            </div>
+                            <div class="Vcar2">
+                                <img src="/assests/car2.avif" style="height: 200px;width: 200px;" alt=""> <br>
+                                model 3
+                            </div>
+                            <div class="Vcar3">
+                                <img src="/assests/car3.avif" style="height: 200px;width: 200px;" alt=""> <br> model y
+                            </div>
+                            <div class="Vcar4">
+                                <img src="/assests/car4.avif" style="height: 200px;width: 200px;" alt=""><br> model x
+                            </div>
+                            <div class="Vcar5">
+                                <img src="/assests/car5.avif" style="height: 200px;width: 200px;" alt=""> <br> Cybertruck
+                            </div>
+                            <div class="Vcar6">
+                                <img src="/assests/car6.avif" style="height: 200px;width: 200px;" alt=""><br> Inventory
+                            </div>
+                            <!-- <div class="Vcar7"></div>
+                            <div class="Vcar8"></div> -->
+                        </div>
+    
+                        <div class="V_components" style="display: flex; flex-direction: column;margin-left: 50px;">
+                            <p>Help me choose</p>
+                            <p>Demo Drive</p>
+                            <p>Trade-in</p>
+                            <p>Compare</p>
+                            <p>Workshops</p>
+                            <p>Help Me Charge</p>
+                            <p>Fleet</p>
+                            <p>Semi</p>
+                            <p>Roadser</p>
+                            <p>Federal Tax Credit</p>
+                            <p>We, Robot</p>
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Energy"><button type="button" class="btn btn-light">Energy</button>
+                <div class="VechicleSlidder2">
+                    <div class="vechicle_slider" style="display: flex;">
+                        <div class="V_cars" style="display: inline-grid ;grid-template-columns: repeat(4,1fr);grid-template-rows: repeat(1,1fr); border-right: 1px solid; align-items: center;justify-content: center; ">
+                            <div class="Vcar1">
+                                <img src="/assests/car1.avif" style="height: 200px;width: 200px;" alt=""><br>
+                                Solar Panels
+                            </div>
+                            <div class="Vcar2">
+                                <img src="/assests/car2.avif" style="height: 200px;width: 200px;" alt=""> <br>
+                                Solar Roof
+                            </div>
+                            <div class="Vcar3">
+                                <img src="/assests/car3.avif" style="height: 200px;width: 200px;" alt=""> <br> Powerwall
+                            </div>
+                            <div class="Vcar4">
+                                <img src="/assests/car4.avif" style="height: 200px;width: 200px;" alt=""><br> Megapack
+                            </div>
+                        
+                        </div>
+    
+                        <div class="V_components" style="display: flex; flex-direction: column;margin-left: 50px;">
+                            <p>Schedule a Consultation</p>
+                            <p>Why Solar</p>
+                            <p>Incentives</p>
+                            <p>Compare</p>
+                            <p>Support</p>
+                            <p>Partner with Tesla</p>
+                            <p>Commercial</p>
+                            <p>Utilities</p>
+                            
+    
+    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <button type="button" class="btn btn-light">Charging</button>
+            <button type="button" class="btn btn-light">Discover</button>
+            <button type="button" class="btn btn-light">shop</button>
+        </ul>
+        </div>
+        
+            
+
+        <div class="car1">
+            <img   height="950px"  src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-2-Desktop-US.png" alt="">
+            <div class="contents">
+        
+                <h2>Model Y</h2>
+                <h4>Starting at $41,4901</h4>
+                <h3>After $7,500 Federal Tax Credit
+                </h3>
+                <button  type="button" class="btn p-3 mx-2 btn-lg btn-primary">ordernow</button>
+                <button type="button" class="btn  p-3 mx-2 btn-light">LearnMore</button>
+            </div>
+
+        </div>
+        <div class="car2">
+            <div class="c2">
+                <h3>Model 3</h3>
+                <h3>0% APR Available</h3> 
+            </div>
+            <img   height="950px"  src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png" alt="">
+        </div>
+        <div class="car3">
+            <div class="c3">
+                <h3>Model 3</h3>
+            <h3>1% APR Available</h3> 
+            </div>
+            <img  height="950px"  src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Hero-US-Desktop-v4.jpg" alt="">
+        </div>
+        <div class="car4">
+            <img   height="950px"  src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png" alt="">
+        </div>
+        <div class="car5">
+            <img   height="950px"   src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png" alt="">
+        </div>
+        <div class="car6">
+            <img  height="950px" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop" alt="">
+        </div>
+        <div class="last">
+            <video width="1520px" controls  autoplay="yes" src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/EN---Essentials-%7C-Model-S-.mp4"></video>
+        </div>
+    </div>
+    
+</body>
+</html>
